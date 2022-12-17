@@ -9,23 +9,36 @@
 /* Begin PBXBuildFile section */
 		A25F814A294CA301005B70C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25F8149294CA301005B70C1 /* AppDelegate.swift */; };
 		A25F814C294CA301005B70C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25F814B294CA301005B70C1 /* SceneDelegate.swift */; };
-		A25F814E294CA301005B70C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25F814D294CA301005B70C1 /* ViewController.swift */; };
+		A25F814E294CA301005B70C1 /* imageDalleAiGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25F814D294CA301005B70C1 /* imageDalleAiGeneratorViewController.swift */; };
 		A25F8151294CA301005B70C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25F814F294CA301005B70C1 /* Main.storyboard */; };
 		A25F8154294CA301005B70C1 /* OpenAITest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A25F8152294CA301005B70C1 /* OpenAITest.xcdatamodeld */; };
 		A25F8156294CA304005B70C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A25F8155294CA304005B70C1 /* Assets.xcassets */; };
 		A25F8159294CA304005B70C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25F8157294CA304005B70C1 /* LaunchScreen.storyboard */; };
+		A25F8162294CA404005B70C1 /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = A25F8161294CA404005B70C1 /* OpenAIKit */; };
+		A25F8165294CA42B005B70C1 /* ImageGeneratorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25F8164294CA42B005B70C1 /* ImageGeneratorManager.swift */; };
+		A25F8168294E0457005B70C1 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = A25F8167294E0457005B70C1 /* OpenAISwift */; };
+		A25F816A294E09E1005B70C1 /* OpenAiChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25F8169294E09E1005B70C1 /* OpenAiChatManager.swift */; };
+		A25F816D294E0C1A005B70C1 /* OpenAiChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25F816C294E0C1A005B70C1 /* OpenAiChatViewController.swift */; };
+		A25F8170294E0EE6005B70C1 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = A25F816F294E0EE6005B70C1 /* MessageKit */; };
+		A25F8173294E0FA0005B70C1 /* OpenAiChatSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25F8172294E0FA0005B70C1 /* OpenAiChatSender.swift */; };
+		A25F8175294E0FDF005B70C1 /* OpenAiChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25F8174294E0FDF005B70C1 /* OpenAiChatMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A25F8146294CA301005B70C1 /* OpenAITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenAITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A25F8149294CA301005B70C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A25F814B294CA301005B70C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A25F814D294CA301005B70C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A25F814D294CA301005B70C1 /* imageDalleAiGeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageDalleAiGeneratorViewController.swift; sourceTree = "<group>"; };
 		A25F8150294CA301005B70C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A25F8153294CA301005B70C1 /* OpenAITest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OpenAITest.xcdatamodel; sourceTree = "<group>"; };
 		A25F8155294CA304005B70C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A25F8158294CA304005B70C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A25F815A294CA304005B70C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A25F8164294CA42B005B70C1 /* ImageGeneratorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGeneratorManager.swift; sourceTree = "<group>"; };
+		A25F8169294E09E1005B70C1 /* OpenAiChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAiChatManager.swift; sourceTree = "<group>"; };
+		A25F816C294E0C1A005B70C1 /* OpenAiChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAiChatViewController.swift; sourceTree = "<group>"; };
+		A25F8172294E0FA0005B70C1 /* OpenAiChatSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAiChatSender.swift; sourceTree = "<group>"; };
+		A25F8174294E0FDF005B70C1 /* OpenAiChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAiChatMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +46,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25F8170294E0EE6005B70C1 /* MessageKit in Frameworks */,
+				A25F8168294E0457005B70C1 /* OpenAISwift in Frameworks */,
+				A25F8162294CA404005B70C1 /* OpenAIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +74,45 @@
 		A25F8148294CA301005B70C1 /* OpenAITest */ = {
 			isa = PBXGroup;
 			children = (
+				A25F816B294E0AAC005B70C1 /* OpenAIChatScene */,
+				A25F8163294CA40B005B70C1 /* ImageGeneratorScene */,
 				A25F8149294CA301005B70C1 /* AppDelegate.swift */,
 				A25F814B294CA301005B70C1 /* SceneDelegate.swift */,
-				A25F814D294CA301005B70C1 /* ViewController.swift */,
 				A25F814F294CA301005B70C1 /* Main.storyboard */,
 				A25F8155294CA304005B70C1 /* Assets.xcassets */,
 				A25F8157294CA304005B70C1 /* LaunchScreen.storyboard */,
 				A25F815A294CA304005B70C1 /* Info.plist */,
 				A25F8152294CA301005B70C1 /* OpenAITest.xcdatamodeld */,
+				A25F8169294E09E1005B70C1 /* OpenAiChatManager.swift */,
 			);
 			path = OpenAITest;
+			sourceTree = "<group>";
+		};
+		A25F8163294CA40B005B70C1 /* ImageGeneratorScene */ = {
+			isa = PBXGroup;
+			children = (
+				A25F814D294CA301005B70C1 /* imageDalleAiGeneratorViewController.swift */,
+				A25F8164294CA42B005B70C1 /* ImageGeneratorManager.swift */,
+			);
+			path = ImageGeneratorScene;
+			sourceTree = "<group>";
+		};
+		A25F816B294E0AAC005B70C1 /* OpenAIChatScene */ = {
+			isa = PBXGroup;
+			children = (
+				A25F8171294E0F8D005B70C1 /* Entities */,
+				A25F816C294E0C1A005B70C1 /* OpenAiChatViewController.swift */,
+			);
+			path = OpenAIChatScene;
+			sourceTree = "<group>";
+		};
+		A25F8171294E0F8D005B70C1 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A25F8172294E0FA0005B70C1 /* OpenAiChatSender.swift */,
+				A25F8174294E0FDF005B70C1 /* OpenAiChatMessage.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +131,11 @@
 			dependencies = (
 			);
 			name = OpenAITest;
+			packageProductDependencies = (
+				A25F8161294CA404005B70C1 /* OpenAIKit */,
+				A25F8167294E0457005B70C1 /* OpenAISwift */,
+				A25F816F294E0EE6005B70C1 /* MessageKit */,
+			);
 			productName = OpenAITest;
 			productReference = A25F8146294CA301005B70C1 /* OpenAITest.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +164,11 @@
 				Base,
 			);
 			mainGroup = A25F813D294CA301005B70C1;
+			packageReferences = (
+				A25F8160294CA404005B70C1 /* XCRemoteSwiftPackageReference "OpenAIKit" */,
+				A25F8166294E0457005B70C1 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+				A25F816E294E0EE6005B70C1 /* XCRemoteSwiftPackageReference "MessageKit" */,
+			);
 			productRefGroup = A25F8147294CA301005B70C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,9 +196,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A25F814E294CA301005B70C1 /* ViewController.swift in Sources */,
+				A25F8165294CA42B005B70C1 /* ImageGeneratorManager.swift in Sources */,
+				A25F816A294E09E1005B70C1 /* OpenAiChatManager.swift in Sources */,
+				A25F814E294CA301005B70C1 /* imageDalleAiGeneratorViewController.swift in Sources */,
+				A25F816D294E0C1A005B70C1 /* OpenAiChatViewController.swift in Sources */,
 				A25F814A294CA301005B70C1 /* AppDelegate.swift in Sources */,
 				A25F814C294CA301005B70C1 /* SceneDelegate.swift in Sources */,
+				A25F8175294E0FDF005B70C1 /* OpenAiChatMessage.swift in Sources */,
+				A25F8173294E0FA0005B70C1 /* OpenAiChatSender.swift in Sources */,
 				A25F8154294CA301005B70C1 /* OpenAITest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +422,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A25F8160294CA404005B70C1 /* XCRemoteSwiftPackageReference "OpenAIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marcodotio/OpenAIKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		A25F8166294E0457005B70C1 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		A25F816E294E0EE6005B70C1 /* XCRemoteSwiftPackageReference "MessageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A25F8161294CA404005B70C1 /* OpenAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A25F8160294CA404005B70C1 /* XCRemoteSwiftPackageReference "OpenAIKit" */;
+			productName = OpenAIKit;
+		};
+		A25F8167294E0457005B70C1 /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A25F8166294E0457005B70C1 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+		A25F816F294E0EE6005B70C1 /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A25F816E294E0EE6005B70C1 /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		A25F8152294CA301005B70C1 /* OpenAITest.xcdatamodeld */ = {
